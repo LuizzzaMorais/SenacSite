@@ -1,0 +1,66 @@
+#img1{
+	width: 690px;
+	height: 441px;
+	float: left;
+	margin-right: 10px;
+	padding-top:24px;
+}
+
+#txt1{
+	background-color: #4682B4;
+	color: white;
+	font-size: 25px;
+	font-family: helvetica;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: top;
+}
+
+#txt2{
+	background-color: darkorange;
+	color: white;
+	font-size: 25px;
+	font-family: helvetica;
+	text-align: center;
+	line-height: 32px;
+	vertical-align: bottom;
+	padding-top: 8px;
+}
+
+#txt3{
+	background-color: lightgray;
+	color: blue;
+	font-size: 25px;
+	font-family: helvetica;
+	text-align: center;
+	line-height: 36px;
+	vertical-align: bottom;
+	padding-top: 5px;
+}
+
+#imgbanner{
+	width: 100%;
+}
+
+#depodiv{
+	width:100%;
+	height: auto;
+	padding-bottom: 400px;
+}
+
+#depo1{
+	float: left;
+	padding-left: 14%;
+	padding-right: 40%;
+}
+
+#depo2{
+	float: right;
+	padding-right: 12%;
+}
+
+#depo3{
+	width:100%;
+}
+
+

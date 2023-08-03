@@ -1,0 +1,36 @@
+#mapa{
+ align: center;
+}
+
+.contato{
+	font-size: 20px;
+	font-family: Verdana;
+	text-align: left; 
+	color: #0052cc;
+}
+@media (max-width: 1200px){
+	#mapa{
+	width: 900px;
+	}
+	
+	.contato{
+	font-size: 18px;
+	font-family: Verdana;
+	text-align: left; 
+	color: #0052cc;
+}
+}
+
+@media (max-width: 900px){	
+	#mapa{
+	width: 600px;
+	}
+	
+	.contato{
+	font-size: 15px;
+	font-family: Verdana;
+	text-align: left; 
+	color: #0052cc;
+}
+}
+

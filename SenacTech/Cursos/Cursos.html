@@ -2,67 +2,118 @@
 <html lang="pt-br">
    <head>
       <title>SenacTech - Menu Principal</title>
+      <meta name="viewport" content="width=device-width,initial-scale=0.6">
       <!-- Definição de codificação de caracteres. Recomenda-se usar sempre UTF-8 -->
       <meta charset="UTF-8">
-      <thead>
-         <table align="justify">
+      <link rel="stylesheet" 
+         type="text/css" 
+         href="../estilo/css.css" />
+		 <link rel="stylesheet" 
+         type="text/css" 
+         href="../estilo/inicio.css" />
+      <table align="justify">
+         <tr>
+            <td align="left" width="850"></td>
+            <td align="left" width="900" ></td>
+         </tr>
+         <tbody>
             <tr>
-               <td align="left" width="850"></td>
-               <td align="left" width="900" ></td>
-               <td align="right"></td>
-               <td align="right"></td>
-               <td align="right"></td>
-               <td align="right"></td>
-               <td align="right"></td>
-            </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td align="left"><a href="../index.html">    <img src="img/senac.png" alt="Voltar ao Menu" width="100" height="50" usemap="senac" >
+               <td align="left">
+			   <a href="index.html">    
+			   <img id="senac" src="img/senac.png" >
+                  </a>
+               </td>
+               <td align="left" valign="bottom">
+                  <h2 style="font-family:verdana" color="red">SenacTech - RS</h2>
+               </td>
+               <td>
+                  <a href="https://www.facebook.com/senactech/?locale=pt_BR">  
+                  <img class="logos" src="img/facebook.png"> 
+                  </a>
+               </td>
+               <td>
+                  <a href="https://www.instagram.com/p/Cdod7rzsEpo/">
+                  <img class="logos" src="img/instagram.png"> 
+                  </a>
+               </td>
+               <td>
+                  <a href="https://twitter.com/senacrs">
+                  <img class="logos" src="img/twitter.png"> 
+                  </a>
+               </td>
+               <td>
+                  <a href="https://br.linkedin.com/posts/senac-rs_senac-tech-activity-6782286113403936768-9AR6?trk=public_profile_like_view">
+                  <img class="logos" src="img/linkedin.png"> 
+                  </a>
+               </td>
+               <td>
+                  <a href="https://br.linkedin.com/posts/senac-rs_senac-tech-activity-6782286113403936768-9AR6?trk=public_profile_like_view">
+                  <img class="logos" src="img/fale.png"> 
+                  </a>
+               </td>
+               </tr
+         </tbody>
+      </table>
+	  <section>
+			<input type="checkbox" 
+			id="bt_menu" />
+			<label for="bt_menu">
+			&#9776;
+			</label>
+      <nav id="menu">
+         <ul >
+            <!-- inicio UL principal-->
+            <li>
+               <a href="../index.html">
+               Menu Principal
+               </a>
+            <li>
+               <!-- inicio LI pagina 2-->
+               <a href="../Cursos/Cursos.html">
+               Cursos e Programas
+               </a>
+               <ul>
+                  <!-- inicio UL sb index-->
+                  <li>
+                     <a href="../Cursos/TecDev.html">
+                     Tecnico em Desenvolvimento
                      </a>
-                  </td>
-                  <td align="left" valign="bottom">
-                     <h2 style="font-family:verdana" color="red">SenacTech - RS</h2>
-                  </td>
-                  <td>
-                     <a href="https://www.facebook.com/senactech/?locale=pt_BR">  
-                     <img src="img/facebook.png" width="30" height="30" hspace="8" align="right"> 
+                  </li>
+                  <li>
+                     <a href="../Cursos/TecInfo.html">
+                     Tecnico em Informatica
                      </a>
-                  </td>
-                  <td>
-                     <a href="https://www.instagram.com/p/Cdod7rzsEpo/">
-                     <img src="img/instagram.png" width="30" height="30" hspace="8" align="right"> 
+                  </li>
+                  <li>
+                     <a href="../Cursos/TecAdm.html">
+                     Tecnico em Administração
                      </a>
-                  </td>
-                  <td>
-                     <a href="https://twitter.com/senacrs">
-                     <img src="img/twitter.png" width="35" height="35" hspace="8" align="right"> 
+                  </li>
+                  <li>
+                     <a href="../Cursos/RsTi.html">
+                     Programa RS-TI
                      </a>
-                  </td>
-                  <td>
-                     <a href="https://br.linkedin.com/posts/senac-rs_senac-tech-activity-6782286113403936768-9AR6?trk=public_profile_like_view">
-                     <img src="img/linkedin.png" width="30" height="30" hspace="8" align="right"> 
+                  </li>
+                  <li>
+                     <a href="../Cursos/Apendizagem.html">
+                     Programa Aprendizagem
                      </a>
-                  </td>
-                  </tr
-               <tr>
-                  <td height="1">
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     <a	href="../Cursos/Cursos.html" align="center">
-                        <h2>&emsp;&emsp;&emsp;Cursos e Programas </h2>
-                     </a>
-                  </td>
-                  <td>
-                     <a	href="../Localizacao/Localizacao.html" align="center">
-                        <h2>   &emsp;&emsp;&emsp;&emsp;        Localização</h2>
-                     </a>
-                  </td>
-               </tr>
-            </tbody>
-         </table>
+                  </li>
+               </ul>
+               <!-- fim UL sb index-->
+            </li>
+            </li><!-- fim LI pagina 2-->
+            <li>
+               <!-- inicio LI pagina 3-->
+               <a href="../Localizacao/Localizacao.html">Localização</a>
+            </li>
+            <!-- fim LI pagina 3-->
+            <li><a href="../form/index.html">Fale Conosco</a></li>
+         </ul>
+         <!-- fim UL principal-->
+      </nav>
+	  </section>
+	  <br>
    </head>
    <body>
    <br>
@@ -107,7 +158,7 @@
    </ul>  
    Clique abaixo para acessar algum dos cursos tecnicos oferecidos pelo Senac RS.
    <br>
-  <br>
+   <br>
    <a	href="../Cursos/TecDev.html" align="center">
    - Técnico em Desenvolvimento
    </a><br>
@@ -146,7 +197,6 @@
    <li>PLANEJAMENTO ESTRATÉGICO NA PRÁTICA</li>
    <li>RH ESTRATÉGICO </li>
    </ul>  
-   
    </font>
    </div>
    <br>
@@ -167,53 +217,45 @@
    <br>
    <br>
    <thead>
-         <table align="justify">
-            <tr>
-               <td align="left" width="850"></td>
-               <td align="left" width="900" ></td>
-               <td align="right"></td>
-               <td align="right"></td>
-               <td align="right"></td>
-               <td align="right"></td>
-               <td align="right"></td>
-            </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td align="left"><a href="../index.html">    <img src="img/senac.png" alt="Voltar ao Menu" width="100" height="50" usemap="senac" >
-                     </a>
-                  </td>
-                  <td align="left" valign="bottom">
-                     <h2 style="font-family:verdana" color="red">Fim da Página</h2>
-                  </td>
-                  <td>
-                     <a href="https://www.facebook.com/senactech/?locale=pt_BR">  
-                     <img src="img/facebook.png" width="30" height="30" hspace="8" align="right"> 
-                     </a>
-                  </td>
-                  <td>
-                     <a href="https://www.instagram.com/p/Cdod7rzsEpo/">
-                     <img src="img/instagram.png" width="30" height="30" hspace="8" align="right"> 
-                     </a>
-                  </td>
-                  <td>
-                     <a href="https://twitter.com/senacrs">
-                     <img src="img/twitter.png" width="35" height="35" hspace="8" align="right"> 
-                     </a>
-                  </td>
-                  <td>
-                     <a href="https://br.linkedin.com/posts/senac-rs_senac-tech-activity-6782286113403936768-9AR6?trk=public_profile_like_view">
-                     <img src="img/linkedin.png" width="30" height="30" hspace="8" align="right"> 
-                     </a>
-                  </td>
-                  </tr
-               <tr>
-                  <td height="1">
-                  </td>
-               </tr>
-               <tr>
-                
-               </tr>
-            </tbody>
-         </table>
-   </body>
+   <table align="justify">
+      <tr>
+         <td align="left" width="850"></td>
+         <td align="left" width="900" ></td>
+      </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td align="left"><a href="index.html">    <img src="img/senac.png" alt="Voltar ao Menu" width="100" height="50">
+               </a>
+            </td>
+            <td align="left" valign="bottom">
+               <h2 style="font-family:verdana" color="red">SenacTech - RS</h2>
+            </td>
+            <td>
+               <a href="https://www.facebook.com/senactech/?locale=pt_BR">  
+               <img class="logos" src="img/facebook.png"> 
+               </a>
+            </td>
+            <td>
+               <a href="https://www.instagram.com/p/Cdod7rzsEpo/">
+               <img class="logos" src="img/instagram.png"> 
+               </a>
+            </td>
+            <td>
+               <a href="https://twitter.com/senacrs">
+               <img class="logos" src="img/twitter.png"> 
+               </a>
+            </td>
+            <td>
+               <a href="https://br.linkedin.com/posts/senac-rs_senac-tech-activity-6782286113403936768-9AR6?trk=public_profile_like_view">
+               <img class="logos" src="img/linkedin.png"> 
+               </a>
+            </td>
+            <td>
+               <a href="https://br.linkedin.com/posts/senac-rs_senac-tech-activity-6782286113403936768-9AR6?trk=public_profile_like_view">
+               <img class="logos" src="img/fale.png"> 
+               </a>
+            </td>
+            </tr
+      </tbody>
+   </table>
