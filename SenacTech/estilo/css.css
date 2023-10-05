@@ -143,3 +143,15 @@ label[for="bt_menu"]{
 	padding-left: 16px;
 	float: right;
 }
+
+img:hover{
+ background-color: wihite; 
+transition: 0.8s;
+opacity: 0.6;
+}
+
+#teste{
+	font-size:50px;
+	color: red;
+	background-color: red;
+}
